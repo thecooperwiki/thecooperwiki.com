@@ -6,21 +6,61 @@ export default defineConfig({
 		starlight({
 			title: "The Cooper Wiki",
             pagination: false,
-			// social: [{ icon: "github", label: "GitHub", href: "https://github.com/thecooperwiki/thecooperwiki.com" }],
+			social: [{ icon: "github", label: "GitHub", href: "https://github.com/thecooperwiki/thecooperwiki.com" }],
 			sidebar: [
 				{
 					label: "Academics",
                     items: [
-                        { label: "Overview", slug: "academics" },
-                        { label: "Curricula", 
-                            items: [{ autogenerate: { directory: "academics/curricula" }}]},
-                        { label: "Courses",
-                            items: [{ autogenerate: { directory: "academics/curricula" }}]},
-                        { label: "Professors",
-                            items: [{ autogenerate: { directory: "academics/curricula" }}]},
+                        { 
+                            label: "Curricula", 
+                            collapsed: true,
+                            items: [
+                                { label: "Architecture", slug: "academics/curricula/architecture" },
+                                { label: "Art", slug: "academics/curricula/art" },
+                                { label: "Engineering", items: 
+                                    [{ autogenerate: { directory: "academics/curricula/engineering", collapsed: true }}]},
+                            ]
+                        },
+                        { 
+                            label: "Courses",
+                            collapsed: true,
+                            items: [
+                                { label: "Architecture", items: 
+                                    [{ autogenerate: { directory: "academics/courses/architecture", collapsed: true }}]},
+                                { label: "Art", items: 
+                                    [{ autogenerate: { directory: "academics/courses/art", collapsed: true }}]},
+                                { label: "Engineering", items: 
+                                    [{ autogenerate: { directory: "academics/courses/engineering", collapsed: true }}]},
+                                { label: "Humanities", items: 
+                                    [{ autogenerate: { directory: "academics/courses/humanities", collapsed: true }}]},
+                            ]
+                        },
+                        { 
+                            label: "Professors",
+                            collapsed: true,
+                            items: [
+                                { label: "Architecture", items: 
+                                    [{ autogenerate: { directory: "academics/professors/architecture", collapsed: true }}]},
+                                { label: "Art", items: 
+                                    [{ autogenerate: { directory: "academics/professors/art", collapsed: true }}]},
+                                { label: "Engineering", items: 
+                                    [{ autogenerate: { directory: "academics/professors/engineering", collapsed: true }}]},
+                                { label: "Humanities", items: 
+                                    [{ autogenerate: { directory: "academics/professors/humanities", collapsed: true }}]},
+                            ]
+                        },
                     ],
 				},
+                {
+                    label: "Contributing",
+                    collapsed: true,
+                    items: [{ autogenerate: { directory: "contributing" }}],
+                }
 			],
+            customCss: [
+                "@fontsource-variable/inter",
+                "./src/custom.css",
+            ],
 		}),
 	],
 });

@@ -1,0 +1,151 @@
+---
+title: Kitchen Sink
+description: A clean testing page to preview all Starlight components and custom CSS styles.
+---
+
+import { Card, CardGrid, LinkCard, FileTree, LinkButton, Steps, Tabs, TabItem, Badge } from "@astrojs/starlight/components";
+
+Reference page for styling including fonts, components, etc.
+
+## Typography & Formatting
+
+Standard body text with **bold text**, *italics*, `inline code`, and [links](#_).
+
+> Blockquotes can use **any** standard Markdown syntax.
+
+## Asides
+
+:::note
+Notes can be pretty useful.
+:::
+
+:::tip
+Tips are like more useful notes.
+:::
+
+:::caution
+Watch out this is scary stuff!
+:::
+
+:::danger
+This is very scary stuff.
+:::
+
+## Cards
+
+<Card title="Standard Card" icon="star">
+    Used to highlight general info and can have cool icons!
+</Card>
+
+Cards can be put inside of card grids.
+
+<CardGrid>
+    <Card title="Card 1" icon="moon">
+        Content inside card 1.
+    </Card>
+    <Card title="Card 2" icon="sun">
+        Content inside card 2.
+    </Card>
+</CardGrid>
+
+## Link Cards
+
+<LinkCard
+    title="Link Title"
+    description="The description of the link card."
+    href="#_"
+/>
+
+Link cards can also be put inside card grids.
+
+<CardGrid>
+    <LinkCard title="Quick Link 1" href="#_" />
+    <LinkCard title="Quick Link 2" href="#_" />
+</CardGrid>
+
+## Tabs
+
+<Tabs>
+    <TabItem label="pnpm" icon="pnpm">
+Tabs can be used to show different options!
+```sh
+pnpm add @fontsource-variable/inter
+```
+    </TabItem>
+
+    <TabItem label="npm" icon="seti:npm">
+Here's another option!
+```sh
+npm install @fontsource-variable/inter
+```
+    </TabItem>
+    <TabItem label="yarn" icon="seti:yarn">
+The last one!
+```sh
+yarn add @fontsource-variable/inter
+```
+    </TabItem>
+</Tabs>
+
+## Steps
+
+<Steps>
+
+1. Use the Steps tag.
+
+2. Put steps inside.
+
+3. That's it I think.
+
+</Steps>
+
+## File Tree
+
+<FileTree>
+
+- photos/
+    - smiley_face.png
+    - cats/
+        - skinny_cat.png
+        - **fat_cat.png**
+- password.txt
+
+</FileTree>
+
+## Details
+
+<details>
+<summary>Click to expand section</summary>
+
+Important details that aren't important enough to be shown without clicking a button.
+</details>
+
+## Link Buttons 
+Fancy link buttons if normal links aren't cool enough.
+
+<LinkButton href="#_" icon="rocket">
+    Primary Button
+</LinkButton>
+<LinkButton href="#_" variant="secondary" icon="external">
+    Secondary
+</LinkButton>
+<LinkButton href="#_" variant="minimal">
+    Minimal
+</LinkButton>
+
+## Badges
+Links in the sidebar can have different badges to mark them.
+
+<Badge text="Default" />
+<Badge text="Success" variant="success" />
+<Badge text="Caution" variant="caution" />
+<Badge text="Danger" variant="danger" />
+<Badge text="Note" variant="note" />
+
+## Tables
+
+| Food | Color | Sour? |
+| --- | --- | --- | 
+| Banana | Yellow | depends probably |
+| Strawberry | Red | also depends |
+| Blueberry | Blue? | also also depends |
