@@ -18,12 +18,11 @@ export default defineConfig({
                                 { label: "Architecture", slug: "academics/curricula/architecture" },
                                 { label: "Art", slug: "academics/curricula/art" },
                                 { label: "Engineering", items: 
-                                    [{ autogenerate: { directory: "academics/curricula/engineering", collapsed: true }}]},
+                                    [{ autogenerate: { directory: "academics/curricula/engineering" }}]},
                             ]
                         },
                         { 
                             label: "Courses",
-                            collapsed: true,
                             items: [
                                 { label: "Architecture", items: 
                                     [{ autogenerate: { directory: "academics/courses/architecture", collapsed: true }}]},
@@ -37,7 +36,6 @@ export default defineConfig({
                         },
                         { 
                             label: "Professors",
-                            collapsed: true,
                             items: [
                                 { label: "Architecture", items: 
                                     [{ autogenerate: { directory: "academics/professors/architecture", collapsed: true }}]},
@@ -53,7 +51,6 @@ export default defineConfig({
 				},
                 {
                     label: "Contributing",
-                    collapsed: true,
                     items: [{ autogenerate: { directory: "contributing" }}],
                 }
 			],
