@@ -4,18 +4,21 @@ import starlight from "@astrojs/starlight"
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: "My Docs",
-			social: [{ icon: "github", label: "GitHub", href: "https://github.com/withastro/starlight" }],
+			title: "The Cooper Wiki",
+            pagination: false,
+			// social: [{ icon: "github", label: "GitHub", href: "https://github.com/thecooperwiki/thecooperwiki.com" }],
 			sidebar: [
 				{
-					label: "Guides",
-					items: [
-						{ label: "Example Guide", slug: "guides/example" },
-					],
-				},
-				{
-					label: "Reference",
-					items: [{ autogenerate: { directory: "reference" } }],
+					label: "Academics",
+                    items: [
+                        { label: "Overview", slug: "academics" },
+                        { label: "Curricula", 
+                            items: [{ autogenerate: { directory: "academics/curricula" }}]},
+                        { label: "Courses",
+                            items: [{ autogenerate: { directory: "academics/curricula" }}]},
+                        { label: "Professors",
+                            items: [{ autogenerate: { directory: "academics/curricula" }}]},
+                    ],
 				},
 			],
 		}),
