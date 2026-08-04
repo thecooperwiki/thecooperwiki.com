@@ -50,9 +50,17 @@ export default defineConfig({
                     ],
 				},
                 {
+                    label: "For Incoming Freshmen",
+                    items: [{ autogenerate: { directory: "incoming" }}],
+                },
+                {
+                    label: "Campus Life",
+                    items: [{ autogenerate: { directory: "campus-life" }}],
+                },
+                {
                     label: "Contributing",
                     items: [{ autogenerate: { directory: "contributing" }}],
-                }
+                },
 			],
             customCss: [
                 "@fontsource-variable/inter",
