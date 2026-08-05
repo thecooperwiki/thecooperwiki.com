@@ -20,13 +20,3 @@
     --sl-color-accent-high: #09090b;
 }
 
-.sl-markdown-content a:not(:where(.not-content *)) {
-    color: #c084fc;
-    text-decoration: underline;
-    text-underline-offset: 0.25em;
-    transition: color 0.15s ease;
-}
-
-.sl-markdown-content a:not(:where(.not-content *)):hover {
-    color: #ddccff;
-}

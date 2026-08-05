@@ -7,6 +7,8 @@ export default defineConfig({
 			title: "The Cooper Wiki",
             pagination: false,
 			social: [{ icon: "github", label: "GitHub", href: "https://github.com/thecooperwiki/thecooperwiki.com" }],
+            editLink: { baseUrl: "https://github.com/thecooperwiki/thecooperwiki.com" },
+            lastUpdated: true,
 			sidebar: [
 				{
 					label: "Academics",
@@ -36,6 +38,7 @@ export default defineConfig({
                         { 
                             label: "Professors",
                             items: [
+                                { label: "Disclaimer", slug: "academics/professors/disclaimer" },
                                 { label: "Architecture", collapsed: true,
                                     items: [{ autogenerate: { directory: "academics/professors/architecture" }}]},
                                 { label: "Art", collapsed: true, 

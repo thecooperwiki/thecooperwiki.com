@@ -10,4 +10,4 @@ Students can have varying experiences and professors can change over the years.
 ## Takedown Policy
 
 If you are a professor who wishes for their page to be taken down indefinitely, 
-please email us at [contact@thecooperwiki.com](mailto:contact@thecooperwiki.com).
+please email us at contact@thecooperwiki.com.
