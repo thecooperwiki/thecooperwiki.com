@@ -13,38 +13,37 @@ export default defineConfig({
                     items: [
                         { 
                             label: "Curricula", 
-                            collapsed: true,
                             items: [
                                 { label: "Architecture", slug: "academics/curricula/architecture" },
                                 { label: "Art", slug: "academics/curricula/art" },
-                                { label: "Engineering", items: 
-                                    [{ autogenerate: { directory: "academics/curricula/engineering" }}]},
+                                { label: "Engineering", collapsed: true, 
+                                    items: [{ autogenerate: { directory: "academics/curricula/engineering" }}]},
                             ]
                         },
                         { 
                             label: "Courses",
                             items: [
-                                { label: "Architecture", items: 
-                                    [{ autogenerate: { directory: "academics/courses/architecture", collapsed: true }}]},
-                                { label: "Art", items: 
-                                    [{ autogenerate: { directory: "academics/courses/art", collapsed: true }}]},
-                                { label: "Engineering", items: 
-                                    [{ autogenerate: { directory: "academics/courses/engineering", collapsed: true }}]},
-                                { label: "Humanities", items: 
-                                    [{ autogenerate: { directory: "academics/courses/humanities", collapsed: true }}]},
+                                { label: "Architecture", collapsed: true,
+                                    items: [{ autogenerate: { directory: "academics/courses/architecture" }}]},
+                                { label: "Art", collapsed: true, 
+                                    items: [{ autogenerate: { directory: "academics/courses/art" }}]},
+                                { label: "Engineering", collapsed: true, 
+                                    items: [{ autogenerate: { directory: "academics/courses/engineering" }}]},
+                                { label: "Humanities", collapsed: true, 
+                                    items: [{ autogenerate: { directory: "academics/courses/humanities" }}]},
                             ]
                         },
                         { 
                             label: "Professors",
                             items: [
-                                { label: "Architecture", items: 
-                                    [{ autogenerate: { directory: "academics/professors/architecture", collapsed: true }}]},
-                                { label: "Art", items: 
-                                    [{ autogenerate: { directory: "academics/professors/art", collapsed: true }}]},
-                                { label: "Engineering", items: 
-                                    [{ autogenerate: { directory: "academics/professors/engineering", collapsed: true }}]},
-                                { label: "Humanities", items: 
-                                    [{ autogenerate: { directory: "academics/professors/humanities", collapsed: true }}]},
+                                { label: "Architecture", collapsed: true,
+                                    items: [{ autogenerate: { directory: "academics/professors/architecture" }}]},
+                                { label: "Art", collapsed: true, 
+                                    items: [{ autogenerate: { directory: "academics/professors/art" }}]},
+                                { label: "Engineering", collapsed: true, 
+                                    items: [{ autogenerate: { directory: "academics/professors/engineering" }}]},
+                                { label: "Humanities", collapsed: true, 
+                                    items: [{ autogenerate: { directory: "academics/professors/humanities" }}]},
                             ]
                         },
                     ],
