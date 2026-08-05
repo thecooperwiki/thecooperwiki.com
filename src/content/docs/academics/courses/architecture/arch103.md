@@ -10,13 +10,14 @@ sidebar:
 
 > Emphasis on topics that involve the mathematical approach to geometrical and physical relationships and on basic concepts and applications of calculus of functions of one and two variables.
 
-## General Advice
-- TBD
-
-## Resources
-
-- [TBD](#_)
+## Course Overview & Topics
+- key concepts, software, etc
 
 ## Professors
+- [Luke Evans](/academics/professors/engineering/luke-evans)
+    - specific advice
+    - workload, assessments, teaching style
+    - professor specific advice
 
-- [TBD](#_)
+## Resources
+- [TBD](#linktoresource)
