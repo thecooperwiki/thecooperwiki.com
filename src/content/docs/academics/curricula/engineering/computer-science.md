@@ -38,8 +38,8 @@ Please [contribute](/contributing/info) new information if you'd like to support
 ### Fall: 19 Credits
 | Course | Name | Credits |
 | - | - | - |
-| [CS 160](/academics/courses/engineering/cs160) | CS Sophomore Projects | 1.5 |
 | [CS 261](/academics/courses/engineering/cs261) | Data Structures and Algorithms | 3 |
+| [CS 291](/academics/courses/engineering/cs291) | CS Sophomore Projects | 1.5 |
 | [ESC 000](/academics/courses/engineering/esc000) | Professional Development Seminar | 0 |
 | [HSS 3](/academics/courses/humanities/hss3) | The Making of Modern Society | 3 |
 | [MA 225](/academics/courses/engineering/ma225) | Vector Calculus | 3 |
@@ -56,6 +56,7 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [HSS 4](/academics/courses/humanities/hss4) | The Modern Context: Figures and Topics | 3 |
 | [MA 336](/academics/courses/engineering/ma336) | Mathematical Statistics | 3 |
 | [PH 214](/academics/courses/engineering/ph214) | Physics III: Optics & Modern Physics | 3 |
+| | Technical Elective | 3 |
 
 ## Junior Year
 
