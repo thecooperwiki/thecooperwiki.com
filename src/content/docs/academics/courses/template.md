@@ -2,6 +2,8 @@
 title: Official Course Title
 sidebar:
     label: COURSE CODE (CAPITALIZED)
+
+credits: 0
 ---
 
 **Credits**: 0

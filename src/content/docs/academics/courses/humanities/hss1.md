@@ -2,7 +2,9 @@
 title: Literary Forms and Expressions
 sidebar:
     label: HSS 1
----
+
+credits: 3
+--- 
 
 **Credits**: 3
 
