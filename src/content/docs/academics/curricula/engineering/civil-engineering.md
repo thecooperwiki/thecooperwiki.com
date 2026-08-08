@@ -12,7 +12,7 @@ Please [contribute](/contributing/info) new information if you'd like to support
 
 ## Freshman Year
 
-### Fall: 18 Credits
+### Fall
 | Course | Name | Credits |
 | - | - | - |
 | [CH 110](/academics/courses/engineering/ch110) | General Chemistry | 3 |
@@ -23,8 +23,9 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [HSS 1](/academics/courses/humanities/hss1) | Literary Forms and Expressions | 3 |
 | [MA 110](/academics/courses/engineering/ma110) | Introduction to Linear Algebra | 2 |
 | [MA 111](/academics/courses/engineering/ma111) | Calculus I | 4 |
+| | **Total Credits** | **18** |
 
-### Spring: 15.5 Credits
+### Spring
 | Course | Name | Credits |
 | - | - | - |
 | [CE 151](/academics/courses/engineering/ce151) | Urban Transportation Planning | 3 |
@@ -33,10 +34,11 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [HSS 2](/academics/courses/humanities/hss2) | Texts and Contexts: Old Worlds and New | 3 |
 | [MA 113](/academics/courses/engineering/ma113) | Calculus II | 4 |
 | [PH 112](/academics/courses/engineering/ph112) | Physics I: Mechanics | 4 |
+| | **Total Credits** | **15.5** |
 
 ## Sophomore Year
 
-### Fall: 18.5 Credits
+### Fall
 | Course | Name | Credits |
 | - | - | - |
 | [ESC 000](/academics/courses/engineering/esc000) | Professional Development Seminar | 0 |
@@ -47,8 +49,9 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [MA 224](/academics/courses/engineering/ma224) | Probability | 2 |
 | [PH 213](/academics/courses/engineering/ph213) | Physics II: Electromagnetic Phenomena | 4 |
 | [PH 291](/academics/courses/engineering/ph291) | Introductory Physics Laboratory | 1.5 |
+| | **Total Credits** | **18.5** |
 
-### Spring: 18 Credits
+### Spring
 | Course | Name | Credits |
 | - | - | - |
 | [BIO 250](/academics/courses/engineering/bio250) | Biotechnology in Environmental Systems | 3 |
@@ -58,10 +61,11 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [HSS 4](/academics/courses/humanities/hss4) | The Modern Context: Figures and Topics | 3 |
 | [MA 240](/academics/courses/engineering/ma240) | Ordinary and Partial Differential Equations | 3 |
 | [PH 214](/academics/courses/engineering/ph214) | Physics III: Optics and Modern Physics | 3 |
+| | **Total Credits** | **18** |
 
 ## Junior Year
 
-### Fall: 18 Credits
+### Fall
 | Course | Name | Credits |
 | - | - | - |
 | [CE 321](/academics/courses/engineering/ce321) | Structural Engineering | 4.5 |
@@ -69,8 +73,9 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [ESC 330](/academics/courses/engineering/esc330) | Engineering Thermodynamics | 3 |
 | [ESC 340](/academics/courses/engineering/esc340) | Fluid Mechanics and Flow Systems | 3 |
 | | HSS Elective | 3 |
+| | **Total Credits** | **18** |
 
-### Spring: 18 Credits
+### Spring
 | Course | Name | Credits |
 | - | - | - |
 | [CE 322](/academics/courses/engineering/ce322) | Structural Engineering II | 3 |
@@ -78,10 +83,11 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [CE 341](/academics/courses/engineering/ce341) | Design of Steel Structures | 3 |
 | [CE 343](/academics/courses/engineering/ce343) | Water Resources Engineering | 4.5 |
 | | HSS Elective | 3 |
+| | **Total Credits** | **18** |
 
 ## Senior Year
 
-### Fall: 15 Credits
+### Fall
 | Course | Name | Credits |
 | - | - | - |
 | [CE 332](/academics/courses/engineering/ce332) | Introduction to Foundation Engineering | 3 |
@@ -89,12 +95,14 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [CE 346](/academics/courses/engineering/ce346) | Hydraulic Engineering | 3 |
 | [CE 363](/academics/courses/engineering/ce363) | Civil Engineering Design I | 3 |
 | | Engineering or Science Electives | 3 |
+| | **Total Credits** | **15** |
 
-### Spring: 14 Credits
+### Spring
 | Course | Name | Credits |
 | - | - | - |
 | [CE 348](/academics/courses/engineering/ce348) | Environmental and Sanitary Engineering | 3 |
 | [CE 361](/academics/courses/engineering/ce361) | Civil Engineering Experimental Projects | 2 |
 | [CE 364](/academics/courses/engineering/ce364) | Civil Engineering Design II | 3 |
 | | Engineering or Science Electives | 6 |
+| | **Total Credits** | **14** |
 

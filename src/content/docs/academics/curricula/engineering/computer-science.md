@@ -12,7 +12,7 @@ Please [contribute](/contributing/info) new information if you'd like to support
 
 ## Freshman Year
 
-### Fall: 18 Credits
+### Fall
 | Course | Name | Credits |
 | - | - | - |
 | [CS 101](/academics/courses/engineering/cs101) | Survey of CS | 3 |
@@ -22,8 +22,9 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [HSS 1](/academics/courses/humanities/hss1) | Literary Forms and Expressions | 3 |
 | [MA 110](/academics/courses/engineering/ma110) | Introduction to Linear Algebra | 2 |
 | [MA 111](/academics/courses/engineering/ma111) | Calculus I | 4 |
+| | **Total Credits** | **18** |
 
-### Spring: 17 Credits
+### Spring
 | Course | Name | Credits |
 | - | - | - |
 | [CS 160](/academics/courses/engineering/cs160) | Introduction to Procedural Programming | 3 |
@@ -32,10 +33,11 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [HSS 2](/academics/courses/humanities/hss2) | Texts and Contexts: Old Worlds and New | 3 |
 | [MA 113](/academics/courses/engineering/ma113) | Calculus II | 4 |
 | [PH 112](/academics/courses/engineering/ph112) | Physics I: Mechanics | 4 |
+| | **Total Credits** | **17** |
 
 ## Sophomore Year
 
-### Fall: 19 Credits
+### Fall
 | Course | Name | Credits |
 | - | - | - |
 | [CS 261](/academics/courses/engineering/cs261) | Data Structures and Algorithms | 3 |
@@ -46,8 +48,9 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [MA 226](/academics/courses/engineering/ma226) | Probability | 3 |
 | [PH 213](/academics/courses/engineering/ph213) | Physics II: Electromagnetic Phenomena | 4 |
 | [PH 291](/academics/courses/engineering/ph291) | Introductory Physics Laboratory | 1.5 |
+| | **Total Credits** | **19** |
 
-### Spring: 18 Credits
+### Spring
 | Course | Name | Credits |
 | - | - | - |
 | [CS 331](/academics/courses/engineering/cs331) | Data Visualization | 3 |
@@ -57,10 +60,11 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [MA 336](/academics/courses/engineering/ma336) | Mathematical Statistics | 3 |
 | [PH 214](/academics/courses/engineering/ph214) | Physics III: Optics & Modern Physics | 3 |
 | | Technical Elective | 3 |
+| | **Total Credits** | **18** |
 
 ## Junior Year
 
-### Fall: 18 Credits
+### Fall
 | Course | Name | Credits |
 | - | - | - |
 | [CS 357](/academics/courses/engineering/cs357) | Operating Systems | 3 |
@@ -69,8 +73,9 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [ECE 352](/academics/courses/engineering/ece352) | Computer Hardware & Electronics | 3 |
 | [MA 326](/academics/courses/engineering/ma326) | Linear Algebra | 3 |
 | | Free Elective | 3 |
+| | **Total Credits** | **18** |
 
-### Spring: 18 Credits
+### Spring
 | Course | Name | Credits |
 | - | - | - |
 | [CS 211](/academics/courses/engineering/cs211) | Ethics of CS | 3 |
@@ -79,10 +84,11 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | [ECE 303](/academics/courses/engineering/ece303) | Communication Networks | 3 |
 | [MA 352](/academics/courses/engineering/ma352) | Discrete Mathematics | 3 |
 | | CS Elective | 3 |
+| | **Total Credits** | **18** |
 
 ## Senior Year
 
-### Fall: 15 Credits
+### Fall
 | Course | Name | Credits |
 | - | - | - |
 | [CS 395](/academics/courses/engineering/cs395) | Senior CS Projects I | 3 |
@@ -90,12 +96,14 @@ Please [contribute](/contributing/info) new information if you'd like to support
 | | Free Elective | 3 |
 | | HSS Elective | 3 |
 | | Technical Elective | 3 |
+| | **Total Credits** | **15** |
 
-### Spring: 12 Credits
+### Spring
 | Course | Name | Credits |
 | - | - | - |
 | [CS 396](/academics/courses/engineering/cs396) | Senior CS Projects II | 3 |
 | | Free Elective | 3 |
 | | HSS Elective | 3 |
 | | Technical Elective | 3 |
+| | **Total Credits** | **12** |
 
