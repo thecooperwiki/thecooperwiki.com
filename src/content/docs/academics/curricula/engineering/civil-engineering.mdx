@@ -2,107 +2,93 @@
 title: Civil Engineering
 ---
 
-:::caution
-Due to the nature of changing catalogs every year, this curriculum may be inaccurate.
-There may be discrepancies in credit totals, course numbering, etc.
-Make sure to verify your official course plan with your academic advisor.
-
-Please [contribute](/contributing/info) new information if you'd like to support us!
-:::
+import CurriculumTable from "@components/CurriculumTable.astro"
 
 ## Freshman Year
 
 ### Fall
-| Course | Name | Credits |
-| - | - | - |
-| [CH 110](/academics/courses/engineering/ch110) | General Chemistry | 3 |
-| [CS 102](/academics/courses/engineering/cs102) | Computer Programming for Engineers | 2 |
-| [EID 101](/academics/courses/engineering/eid101) | Engineering Design and Problem Solving | 3 |
-| [EID 102](/academics/courses/engineering/eid102) | Engineering Graphics | 1 |
-| [ESC 000](/academics/courses/engineering/esc000) | Professional Development Seminar | 0 |
-| [HSS 1](/academics/courses/humanities/hss1) | Literary Forms and Expressions | 3 |
-| [MA 110](/academics/courses/engineering/ma110) | Introduction to Linear Algebra | 2 |
-| [MA 111](/academics/courses/engineering/ma111) | Calculus I | 4 |
-| | **Total Credits** | **18** |
+<CurriculumTable courses={[
+    "engineering/ch110",
+    "engineering/cs102",
+    "engineering/eid101",
+    "engineering/eid102",
+    "engineering/esc000",
+    "humanities/hss1",
+    "engineering/ma110",
+    "engineering/ma111",
+]}/>
 
 ### Spring
-| Course | Name | Credits |
-| - | - | - |
-| [CE 151](/academics/courses/engineering/ce151) | Urban Transportation Planning | 3 |
-| [CH 111](/academics/courses/engineering/ch111) | General Chemistry Laboratory | 1.5 |
-| [ESC 000](/academics/courses/engineering/esc000) | Professional Development Seminar | 0 |
-| [HSS 2](/academics/courses/humanities/hss2) | Texts and Contexts: Old Worlds and New | 3 |
-| [MA 113](/academics/courses/engineering/ma113) | Calculus II | 4 |
-| [PH 112](/academics/courses/engineering/ph112) | Physics I: Mechanics | 4 |
-| | **Total Credits** | **15.5** |
+<CurriculumTable courses={[
+    "engineering/ce151",
+    "engineering/ch111",
+    "engineering/esc000",
+    "humanities/hss2",
+    "engineering/ma113",
+    "engineering/ph112",
+]}/>
 
 ## Sophomore Year
 
 ### Fall
-| Course | Name | Credits |
-| - | - | - |
-| [ESC 000](/academics/courses/engineering/esc000) | Professional Development Seminar | 0 |
-| [ESC 200](/academics/courses/engineering/esc200) | Engineering Mechanics | 3 |
-| [ESC 210](/academics/courses/engineering/esc210) | Materials Science | 3 |
-| [HSS 3](/academics/courses/humanities/hss3) | The Making of Modern Society | 3 |
-| [MA 223](/academics/courses/engineering/ma223) | Vector Calculus | 2 |
-| [MA 224](/academics/courses/engineering/ma224) | Probability | 2 |
-| [PH 213](/academics/courses/engineering/ph213) | Physics II: Electromagnetic Phenomena | 4 |
-| [PH 291](/academics/courses/engineering/ph291) | Introductory Physics Laboratory | 1.5 |
-| | **Total Credits** | **18.5** |
+<CurriculumTable courses={[
+    "engineering/esc000",
+    "engineering/esc200",
+    "engineering/esc210",
+    "humanities/hss3",
+    { title: "MA 223: Vector Calculus < 2026", credits: 2 },
+    { title: "MA 224: Probability < 2026", credits: 2 },
+    "engineering/ph213",
+    "engineering/ph291",
+]}/>
 
 ### Spring
-| Course | Name | Credits |
-| - | - | - |
-| [BIO 250](/academics/courses/engineering/bio250) | Biotechnology in Environmental Systems | 3 |
-| [CE 220](/academics/courses/engineering/ce220) | Fundamentals of Civil Engineering | 3 |
-| [ESC 000](/academics/courses/engineering/esc000) | Professional Development Seminar | 0 |
-| [ESC 201](/academics/courses/engineering/esc201) | Mechanics of Materials | 3 |
-| [HSS 4](/academics/courses/humanities/hss4) | The Modern Context: Figures and Topics | 3 |
-| [MA 240](/academics/courses/engineering/ma240) | Ordinary and Partial Differential Equations | 3 |
-| [PH 214](/academics/courses/engineering/ph214) | Physics III: Optics and Modern Physics | 3 |
-| | **Total Credits** | **18** |
+<CurriculumTable courses={[
+    "engineering/bio250",
+    "engineering/ce220",
+    "engineering/esc000",
+    "engineering/esc201",
+    "humanities/hss4",
+    "engineering/ma240",
+    "engineering/ph214",
+]}/>
 
 ## Junior Year
 
 ### Fall
-| Course | Name | Credits |
-| - | - | - |
-| [CE 321](/academics/courses/engineering/ce321) | Structural Engineering | 4.5 |
-| [CE 344](/academics/courses/engineering/ce344) | Environmental Systems Engineering | 4.5 |
-| [ESC 330](/academics/courses/engineering/esc330) | Engineering Thermodynamics | 3 |
-| [ESC 340](/academics/courses/engineering/esc340) | Fluid Mechanics and Flow Systems | 3 |
-| | HSS Elective | 3 |
-| | **Total Credits** | **18** |
+<CurriculumTable courses={[
+    "engineering/ce321",
+    "engineering/ce344",
+    "engineering/esc330",
+    "engineering/esc340",
+    { title: "HSS Elective", credits: 3 },
+]}/>
 
 ### Spring
-| Course | Name | Credits |
-| - | - | - |
-| [CE 322](/academics/courses/engineering/ce322) | Structural Engineering II | 3 |
-| [CE 331](/academics/courses/engineering/ce331) | Introduction to Geotechnical Engineering | 4.5 |
-| [CE 341](/academics/courses/engineering/ce341) | Design of Steel Structures | 3 |
-| [CE 343](/academics/courses/engineering/ce343) | Water Resources Engineering | 4.5 |
-| | HSS Elective | 3 |
-| | **Total Credits** | **18** |
+<CurriculumTable courses={[
+    "engineering/ce322",
+    "engineering/ce331",
+    "engineering/ce341",
+    "engineering/ce343",
+    { title: "HSS Elective", credits: 3 },
+]}/>
 
 ## Senior Year
 
 ### Fall
-| Course | Name | Credits |
-| - | - | - |
-| [CE 332](/academics/courses/engineering/ce332) | Introduction to Foundation Engineering | 3 |
-| [CE 342](/academics/courses/engineering/ce342) | Design of Reinforced Concrete Structures | 3 |
-| [CE 346](/academics/courses/engineering/ce346) | Hydraulic Engineering | 3 |
-| [CE 363](/academics/courses/engineering/ce363) | Civil Engineering Design I | 3 |
-| | Engineering or Science Electives | 3 |
-| | **Total Credits** | **15** |
+<CurriculumTable courses={[
+    "engineering/ce332",
+    "engineering/ce342",
+    "engineering/ce346",
+    "engineering/ce363",
+    { title: "Engineering or Science Electives", credits: 3 },
+]}/>
 
 ### Spring
-| Course | Name | Credits |
-| - | - | - |
-| [CE 348](/academics/courses/engineering/ce348) | Environmental and Sanitary Engineering | 3 |
-| [CE 361](/academics/courses/engineering/ce361) | Civil Engineering Experimental Projects | 2 |
-| [CE 364](/academics/courses/engineering/ce364) | Civil Engineering Design II | 3 |
-| | Engineering or Science Electives | 6 |
-| | **Total Credits** | **14** |
+<CurriculumTable courses={[
+    "engineering/ce348",
+    "engineering/ce361",
+    "engineering/ce364",
+    { title: "Engineering or Science Electives", credits: 6 },
+]}/>
 

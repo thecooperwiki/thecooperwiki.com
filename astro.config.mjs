@@ -1,5 +1,14 @@
 import { defineConfig } from "astro/config"
 import starlight from "@astrojs/starlight"
+import fs from "node:fs"
+
+function getCourses(school, prefix) {
+    let files = fs.readdirSync(`src/content/docs/academics/courses/${school}`)
+
+    let regex = new RegExp(`${prefix}\\d\\d\\d`)
+    
+    return files.filter(file => regex.test(file)).map(file => `academics/courses/engineering/${file.split(".")[0]}`)
+}
 
 export default defineConfig({
     site: "https://thecooperwiki.com",
@@ -8,7 +17,7 @@ export default defineConfig({
 			title: "The Cooper Wiki",
             pagination: false,
 			social: [{ icon: "github", label: "GitHub", href: "https://github.com/thecooperwiki/thecooperwiki.com" }],
-            editLink: { baseUrl: "https://github.com/thecooperwiki/thecooperwiki.com" },
+            editLink: { baseUrl: "https://github.com/thecooperwiki/thecooperwiki.com/tree/main" },
             lastUpdated: true,
 			sidebar: [
 				{
@@ -30,8 +39,22 @@ export default defineConfig({
                                     items: [{ autogenerate: { directory: "academics/courses/architecture" }}]},
                                 { label: "Art", collapsed: true, 
                                     items: [{ autogenerate: { directory: "academics/courses/art" }}]},
-                                { label: "Engineering", collapsed: true, 
-                                    items: [{ autogenerate: { directory: "academics/courses/engineering" }}]},
+                                { 
+                                    label: "Engineering", collapsed: true, 
+                                    items: [
+                                        { label: "BIO", collapsed: true, items: getCourses("engineering", "bio") },
+                                        { label: "CE", collapsed: true, items: getCourses("engineering", "ce") },
+                                        { label: "CH", collapsed: true, items: getCourses("engineering", "ch") },
+                                        { label: "CHE", collapsed: true, items: getCourses("engineering", "che") },
+                                        { label: "CS", collapsed: true, items: getCourses("engineering", "cs") },
+                                        { label: "ECE", collapsed: true, items: getCourses("engineering", "ece") },
+                                        { label: "EID", collapsed: true, items: getCourses("engineering", "eid") },
+                                        { label: "ESC", collapsed: true, items: getCourses("engineering", "esc") },
+                                        { label: "MA", collapsed: true, items: getCourses("engineering", "ma") }, 
+                                        { label: "ME", collapsed: true, items: getCourses("engineering", "me") },
+                                        { label: "PH", collapsed: true, items: getCourses("engineering", "ph") },
+                                    ]
+                                },
                                 { label: "Humanities", collapsed: true, 
                                     items: [{ autogenerate: { directory: "academics/courses/humanities" }}]},
                             ]

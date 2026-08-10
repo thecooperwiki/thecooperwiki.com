@@ -20,7 +20,7 @@ const data = await Promise.all(
             path: `/${path}`,
             code: entry.data.sidebar?.label || "N/A",
             title: entry.data.title || "N/A",
-            credits: entry.data.credits || "N/A",
+            credits: entry.data.credits ?? "N/A",
         }
 
         // course has no page
